@@ -1,14 +1,15 @@
-FROM python:3
+FROM node:20
 
 WORKDIR /app
 
+COPY package*.json ./
+
+RUN npm install
+
 COPY . .
 
-RUN pip install flask
-RUN pip install flask_cors
-RUN pip install requests
-RUN pip install bs4
+ENV PORT=3000
 
-EXPOSE 81
+EXPOSE 3000
 
-CMD python scrapingServer.py
+CMD ["npm", "start"]
