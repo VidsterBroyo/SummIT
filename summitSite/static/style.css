@@ -1,0 +1,32 @@
+#myBody {
+    font-family: 'Arial';
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#url {
+    width: 70%;
+    border-radius: 10px;
+}
+
+#list li {
+    margin-top: 5px;
+}
+
+#subList li {
+    margin-top: 0px;
+}
+
+button {
+    background-color: rgb(255, 211, 129);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#hiddenNav li, #hiddenFooter li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
