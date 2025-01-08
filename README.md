@@ -1,3 +1,5 @@
+### use SummIT [here](http://99.79.195.35/)!  
+
 ## News site before SummIT:
 ![test](https://github.com/VidsterBroyo/SummIT/blob/c53fcaa295ba5f973cdfadac7e714bc9e5eab923/newsPreSummIT.jpg)
 
