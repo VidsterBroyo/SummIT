@@ -10,8 +10,8 @@ function generateSite(url) {
     // let maintainStyle = document.getElementById("maintainStyle").checked
 
     var request = new XMLHttpRequest()
-    // request.open('POST', 'http://localhost:81/getScrapedSite', false)
-    request.open('POST', 'http://35.183.18.174:81/getScrapedSite', false)
+    request.open('POST', 'http://localhost:81/getScrapedSite', false)
+    // request.open('POST', 'http://35.183.18.174:81/getScrapedSite', false)
     request.setRequestHeader("Content-Type", "application/json");
     body = {
         "url": url,
